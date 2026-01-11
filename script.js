@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (mapContainer) {
         // Load Google Maps API
         const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBvG2QwH1QJ9resTZsAgZN0oNBd1HpxwkI&libraries=places&callback=initMap`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBfkx1jm9kF_doy_S4V-OaKkl6MHB9YK6g&libraries=places&callback=initMap`;
         script.async = true;
         script.defer = true;
         document.head.appendChild(script);
